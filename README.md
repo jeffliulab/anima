@@ -13,7 +13,7 @@ It turns natural-language instructions ("put the pen in the box") into grounded,
 | **Is** | A reusable cognitive layer for robots running ROS 2. Parses instructions, plans tasks, dispatches skills, validates execution. |
 | **Is not** | A motion planner, a perception model, a hardware driver. ANIMA *coordinates* these — it does not replace them. |
 
-ANIMA is the brain shared across the **Soma Homies** robot family ([soma_home_exp_v1](https://github.com/jeffliulab/soma_home_exp_v1) is the first robot using it), but it is designed to be robot-agnostic.
+ANIMA is the brain shared across the **Soma Homies** robot family ([SmartRobotArm](https://github.com/jeffliulab/SmartRobotArm) is the first robot using it — a fixed tabletop manipulator that will become the arm capability layer of the future Soma Home), but it is designed to be robot-agnostic.
 
 ## Status
 
